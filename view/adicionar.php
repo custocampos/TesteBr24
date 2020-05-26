@@ -15,21 +15,21 @@ $form->method = "post";
 
 if(isset($_SESSION['flag'])){
     unset($_SESSION['flag']);
-    ?>	
-    
-    
-    <script>
-                $(document).ready(function(){
-                 
-                      $('.modal').modal();
-                     $('#modalb').modal('open');
-                    $('#cls').click(function(){
-                        $('#modalb').modal('close');                   
-                    });
-                });
-    </script>
-    
-        <?php
+    ?>
+
+
+<script>
+    $(document).ready(function () {
+
+        $('.modal').modal();
+        $('#modalb').modal('open');
+        $('#cls').click(function () {
+            $('#modalb').modal('close');
+        });
+    });
+</script>
+
+<?php
         
     };
 
@@ -45,10 +45,3 @@ include_once __DIR__ ."/footer.php";
 
 
  
-
-
-
-
-
-
-

@@ -45,11 +45,11 @@ if(isset($_POST['btn-editar'])){
                 $result = updateCompany($data);
                 if ($result){
                     $_SESSION['mensagem2'] = "Atualizado com sucesso!";
-                    header('location: ../view/index.php');
+                    header('location: ./../index.php');
                 }else{
                     
                 $_SESSION['mensagem'] = "Erro ao editar!";
-                header('location: ../view/index.php');
+                header('location: ./../index.php');
                 } 
         }
     }
@@ -93,11 +93,11 @@ if(isset($_POST['btn-editar2'])){
             $result = updateCompany($data);
             if($result){
                 $_SESSION['mensagem2'] = "Atualizado com sucesso!";
-                header('location:../view/index.php');
+                header('location:./../index.php');
             }else{
                 
             $_SESSION['mensagem'] = "Erro ao editar!";
-            header('location:../view/index.php');
+            header('location:./../index.php');
             
             } 
 
@@ -107,5 +107,3 @@ if(isset($_POST['btn-editar2'])){
         }
     }
 }
-
-

@@ -21,12 +21,12 @@ if(isset($_POST['btn-contatos'])){
     $result = createContact($data);
     if($result){
         $_SESSION['mensagem2'] = "Contato adicionado!";
-        header('location:../view/index.php');
+        header('location:./../index.php');
 
         }else{
         
         $_SESSION['mensagem'] = "Erro ao adicionar contato!";
-        header('location:../view/index.php');
+        header('location:./../index.php');
         }
     
 

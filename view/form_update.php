@@ -4,8 +4,8 @@
     <div class="nav-wrapper black">
       <h5  class="brand-logo center">Editar Cadastro de Empresa</h5>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="index.php" class="btn waves-effect waves-red"><i class="material-icons center">arrow_back</i></a></li>
-        <li><a href="index.php" class="waves-effect waves-red btn"><i class="material-icons center">home</i></a></li>
+        <li><a href="./../index.php" class="btn waves-effect waves-red"><i class="material-icons center">arrow_back</i></a></li>
+        <li><a href="./../index.php" class="waves-effect waves-red btn"><i class="material-icons center">home</i></a></li>
       </ul>
     </div>
   </nav>

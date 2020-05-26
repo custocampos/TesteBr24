@@ -58,4 +58,3 @@ include __DIR__."/form_update.php";
 
 // Footer
 include_once __DIR__ ."/footer.php";
-

@@ -6,7 +6,7 @@ if(isset($_POST['btn-negocios'])){
     $postArray=filter_input_array(INPUT_POST,FILTER_DEFAULT);
     if(!filter_var($postArray['valor'],FILTER_VALIDATE_FLOAT)) {
         $_SESSION['mensagem'] ="valor informado não é válido, utilize somente números (use ponto ao invés de vírgula)!";
-        header('location: ../view/index.php');}
+        header('location: ./../index.php');}
 
     $nome = $_POST['nomeDeal'];
     $valor = $_POST['valor'];
@@ -30,15 +30,15 @@ if(isset($_POST['btn-negocios'])){
         $result2 = updateCompanyDeal($data);
             if($result2){
                 $_SESSION['mensagem2'] = "Negócio adicionado!";
-                header('location:../view/index.php');
+                header('location:./../index.php');
             }else{ 
                 $_SESSION['mensagem'] = "Erro ao adicionar valor!";
-                header('location:../view/index.php');
+                header('location:./../index.php');
 
             }
         }else{
         $_SESSION['mensagem'] = "Erro ao adicionar valor!";
-        header('location:../view/index.php');
+        header('location:./../index.php');
         }
     
     }

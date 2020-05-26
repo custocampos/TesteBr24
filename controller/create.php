@@ -66,16 +66,16 @@ if($postArray){
 
                 } else {
                     $_SESSION['mensagem'] = "Erro ao cadastrar!";
-                    header('location: ../view/index.php');
+                    header('location: ./../index.php');
                 }
             } else {
                 $result = createCompany($data);
                 if ($result) {
                     $_SESSION['mensagem2'] = "Cadastrado com sucesso!";
-                    header('location: ../view/index.php');
+                    header('location: ./../index.php');
                 } else {
                     $_SESSION['mensagem'] = "Erro ao cadastrar!";
-                    header('location: ../view/index.php');
+                    header('location: ./../index.php');
                 }
     
             }
